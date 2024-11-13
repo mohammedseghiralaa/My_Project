@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+body{
+    min-height: 554px;
+    background: linear-gradient(to right,#00ff00,black);
+}
+#content{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+.inputs{
+    margin: 100px 0;
+}
+#value{
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
