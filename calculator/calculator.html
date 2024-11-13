@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calcultor.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <input type="text" id="recherch">
+        <div class="numbers">
+            <div class="group">
+            <input type="button" value="7" onclick="calcu(this.value)">
+            <input type="button" value="8" onclick="calcu(this.value)">
+            <input type="button" value="9" onclick="calcu(this.value)">
+            <input type="button" value="+" onclick="calcu(this.value)">
+        </div>
+        <div class="group">
+            <input  type="button" value="4" onclick="calcu(this.value)"> 
+            <input type="button"  value="5" onclick="calcu(this.value)">
+            <input type="button" value="6" onclick="calcu(this.value)">
+            <input type="button" value="-" onclick="calcu(this.value)">
+        </div>
+        <div class="group">
+            <input type="button" value="1" onclick="calcu(this.value)">
+            <input type="button" value="2" onclick="calcu(this.value)">
+            <input type="button" value="3" onclick="calcu(this.value)">
+            <input type="button" value="*" onclick="calcu(this.value)">
+        </div>
+        <div class="group">
+            <input type="button" value="0" onclick="calcu(this.value)">
+            <input type="button" value="." onclick="calcu(this.value)">
+            <input type="button" value="/" onclick="calcu(this.value)">
+            <input id="=" type="button" value="=" onclick="result()">
+        </div>
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
